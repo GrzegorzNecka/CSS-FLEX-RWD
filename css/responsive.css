@@ -1,0 +1,18 @@
+@media all and (max-width: 992px) {
+
+    aside#item-left {
+        order: 3;
+        flex-basis: 100%;
+    }
+
+}
+
+@media all and (max-width: 768px) {
+
+    aside,
+    article {
+        flex-basis: 100%;
+       
+    }
+
+}

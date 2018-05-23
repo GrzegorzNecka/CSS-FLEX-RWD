@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    text-align: center;
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+p,
+h2 {
+    margin: 0;
+    font-size: 1em;
+    font-weight: 100;
+}
+
+header,
+footer {
+    line-height: 50px;
+}
+
+/*------------------------flex------------------------*/
+
+section#flex-content {
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+aside {
+    flex-grow: 1;
+    flex-basis: 25%;
+
+}
+
+article {
+    flex-grow: 2;
+    flex-basis: 50%;
+}
+
+
+/*------------------------colors------------------------*/
+
+header#item-top {
+    background-color: crimson;
+}
+
+aside#item-left {
+    background-color: darkolivegreen;
+
+}
+
+aside#item-right {
+    background-color: firebrick;
+
+}
+
+article#item-center {
+    background-color: skyblue;
+
+}
+
+footer#item-bottom {
+    background-color: violet;
+}
