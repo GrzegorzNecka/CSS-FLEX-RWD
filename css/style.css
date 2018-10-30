@@ -4,7 +4,11 @@ body {
     color: #FFF;
     text-transform: uppercase;
 }
-
+* {
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
 p,
 h2 {
     margin: 0;
@@ -38,28 +42,31 @@ article {
     flex-basis: 50%;
 }
 
+header, aside,article,footer{
+    padding: 20px;
+}
 
 /*------------------------colors------------------------*/
 
 header#item-top {
-    background-color: crimson;
+    background-color: #f25055;
 }
 
 aside#item-left {
-    background-color: darkolivegreen;
+    background-color: #344d8b;
 
 }
 
 aside#item-right {
-    background-color: firebrick;
+    background-color: #48a491;
 
 }
 
 article#item-center {
-    background-color: skyblue;
+    background-color: #f5da1f;
 
 }
 
 footer#item-bottom {
-    background-color: violet;
+    background-color: #8ea5a3;
 }
